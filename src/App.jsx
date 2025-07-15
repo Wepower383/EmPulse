@@ -1,11 +1,10 @@
-import React from "react";
-import CoilSimulator from "./components/CoilSimulator";
+import React from 'react';
 
 function App() {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">EMPulse: Electromagnetic Coil Simulator</h1>
-      <CoilSimulator />
+    <div>
+      <h1>Welcome to EMPulse</h1>
+      <p>Now powered by Vite ⚡</p>
     </div>
   );
 }
