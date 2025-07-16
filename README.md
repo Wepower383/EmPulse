@@ -1,6 +1,6 @@
 # EMPulse v1.5 – Ultimate Release
 A tier-based electromagnetic simulator for explorers, engineers, and seers.
-
+📘 [Download the EMPulse Companion Guide (PDF)](./EMPulse_Companion_Guide.pdf)
 ## Tiers:
 - Explorer: Resistors, Capacitors, Coils, Switches
 - Engineer: Transistors, Voltmeters, Transformers, Potentiometers
