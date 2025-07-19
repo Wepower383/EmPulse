@@ -1,0 +1,64 @@
+<!-- Partikulr Final Merge with EMPulse -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partikulr | Bridge Activated</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Partikulr</h1>
+    <p class="subtitle">Reality Beyond the Eyes – Merged with EMPulse</p>
+  </header>
+
+  <main>
+    <section id="entry">
+      <h2>Where You Left Off</h2>
+      <p>The simulation you've just completed has opened a new layer. This is no longer poetry. This is a functional field explorer.</p>
+      <button onclick="continueJourney()">Continue Your Path</button>
+    </section>
+
+    <section id="module" style="display:none">
+      <h2>Invisible Forces Module</h2>
+      <p>Click through each zone. Each click reveals a layer of truth. Not fiction. Not fear. Reality.</p>
+      <div class="grid">
+        <button onclick="reveal('resonance')">Resonance</button>
+        <button onclick="reveal('harmonics')">Harmonics</button>
+        <button onclick="reveal('coherence')">Coherence</button>
+        <button onclick="reveal('interference')">Interference</button>
+      </div>
+      <div id="reveal-box"></div>
+    </section>
+
+    <section id="closeout" style="display:none">
+      <h2>Close the Circuit</h2>
+      <p>You've reached the end of this path... or maybe the beginning of the next. Download the complete system below.</p>
+      <a href="Partikulr_vFinal_merged.zip" download class="download-btn">Download Final App Bundle</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by WePower383 · Resonance Realities Engine · © 2025</p>
+  </footer>
+
+  <script>
+    function continueJourney() {
+      document.getElementById('entry').style.display = 'none';
+      document.getElementById('module').style.display = 'block';
+    }
+
+    function reveal(topic) {
+      const content = {
+        resonance: "Everything vibrates. Nothing is still. Begin here.",
+        harmonics: "Hidden frequencies add up. What are you adding to the field?",
+        coherence: "When thoughts align with purpose, energy becomes a tool.",
+        interference: "Noise or signal? Sometimes truth is blocked by distortion."
+      };
+      document.getElementById('reveal-box').innerText = content[topic];
+      document.getElementById('closeout').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
